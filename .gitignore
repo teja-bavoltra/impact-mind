@@ -1,0 +1,81 @@
+# ============================================
+# Node / Next.js / TypeScript .gitignore
+# ============================================
+
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js cache
+.next/cache/
+
+# Lint cache
+.eslintcache
+
+# Yarn / pnpm / npm
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Storybook
+storybook-static/
+
+# TurboRepo
+.turbo/
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# Local SSL
+*.pem
+
+# Lock files (optional, if you want reproducible builds keep them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
